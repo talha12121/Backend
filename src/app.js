@@ -42,4 +42,16 @@ app.use(
   })
 );
 
+//import routes
+
+import userRoutes from "./routes/users.routes.js";
+
+
+//router
+
+app.use("/api/users", userRoutes);
+
+
+
+
 export default app;
